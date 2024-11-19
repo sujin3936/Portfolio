@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.HappyMine.ui.check.CheckFragment">
+
+    <!--번호 표시칸 -->
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:hint="핸드폰 번호 8자리를 입력하세요"
+        android:maxLength="8"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/check_border"
+        android:id="@+id/mmember_pn"/>
+
+    <!--첫번째 번호 버튼 줄 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_1"
+            android:id="@+id/number1"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_2"
+            android:layout_marginTop="5dp"
+            android:id="@+id/number2"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_3"
+            android:layout_marginTop="6dp"
+            android:id="@+id/number3"/>
+    </LinearLayout>
+
+    <!--두번째 번호 버튼 줄 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_4"
+            android:id="@+id/number4"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_5"
+            android:id="@+id/number5"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_6"
+            android:id="@+id/number6"/>
+    </LinearLayout>
+
+    <!--세번째 번호 버튼 줄 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_7"
+            android:id="@+id/number7"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_8"
+            android:id="@+id/number8"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_9"
+            android:id="@+id/number9"/>
+    </LinearLayout>
+
+    <!--네번째 번호 버튼 줄 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/delete"
+            android:id="@+id/delete"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/number_0"
+            android:id="@+id/number0"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/check"
+            android:id="@+id/check"/>
+    </LinearLayout>
+</LinearLayout>

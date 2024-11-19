@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_memberCheck">
+
+    <fragment
+        android:id="@+id/nav_memberCheck"
+        android:name="com.example.HappyMine.ui.check.CheckFragment"
+        android:label="@string/menu_check"
+        tools:layout="@layout/fragment_check">
+        <action
+            android:id="@+id/action_nav_memberCheck_to_nav_memberCheckSuccess"
+            app:destination="@id/nav_memberCheckSuccess" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_memberCheckSuccess"
+        android:name="com.example.HappyMine.ui.check.CheckSuccessFragment"
+        tools:layout="@layout/fragment_check_success" />
+
+    <fragment
+        android:id="@+id/nav_goodsBuy"
+        android:name="com.example.HappyMine.ui.goods.GoodsBuyFragment"
+        android:label="@string/menu_goodsbuy"
+        tools:layout="@layout/fragment_goodsbuy">
+        <action
+            android:id="@+id/action_nav_goodsBuy_to_nav_agree"
+            app:destination="@id/nav_agree" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_agree"
+        android:name="com.example.HappyMine.ui.goods.AgreeFragment"
+        tools:layout="@layout/fragment_agree">
+        <action
+            android:id="@+id/action_nav_aree_to_nav_goodsBuy"
+            app:destination="@id/nav_goodsBuy" />
+    </fragment>
+
+</navigation>

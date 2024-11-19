@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "875757851362",
+    "project_id": "happymine-cb87a",
+    "storage_bucket": "happymine-cb87a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875757851362:android:d19946bee3525b824984bb",
+        "android_client_info": {
+          "package_name": "com.example.happymine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875757851362-vqjij36rqb6rp8ggsnfd3fjflidi3vpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU711s0UKuj_84Su9DFxNFE_IIB0UD9W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875757851362-vqjij36rqb6rp8ggsnfd3fjflidi3vpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
